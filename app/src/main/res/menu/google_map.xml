@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_showTraffic"
+        android:orderInCategory="100"
+        android:title="Show Tracffic"
+        android:onClick="clickToShowTraffic" />
+
+    <item
+        android:id="@+id/action_zoomIn"
+        android:orderInCategory="100"
+        android:title="Zoom In"
+        android:onClick="clickToZoomIn" />
+
+    <item
+        android:id="@+id/action_zoomOut"
+        android:orderInCategory="100"
+        android:title="Zoom Out"
+        android:onClick="clickToZoomOut" />
+
+    <item
+        android:id="@+id/action_goToLocationAndMark"
+        android:orderInCategory="100"
+        android:title="Go to A Location &amp; Mark"
+        android:onClick="clickToGoToLocationAndMark" />
+
+    <item
+        android:id="@+id/action_showCurrentLocation"
+        android:orderInCategory="100"
+        android:title="Show Current Location"
+        android:onClick="clickToShowCurrentLocation" />
+
+    <item
+        android:id="@+id/action_lineConnection2Points"
+        android:orderInCategory="100"
+        android:title="Line Connection 2 Points"
+        android:onClick="clickToLineConnection2Points" />
+
+    <item
+        android:id="@+id/action_getLocationData"
+        android:orderInCategory="100"
+        android:title="Get Location Data"
+        android:onClick="clickToGetLocationData" />
+
+    <item
+        android:id="@+id/action_activateTheMapClick"
+        android:orderInCategory="100"
+        android:title="Activate The Map Click"
+        android:onClick="clickToActivateTheMapClick" />
+</menu>
